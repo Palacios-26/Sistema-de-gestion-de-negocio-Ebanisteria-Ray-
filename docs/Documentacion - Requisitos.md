@@ -1,3 +1,28 @@
+# Sistema de Gestión para Ebanistería Ray
+
+## Descripción
+
+Este proyecto tiene como objetivo desarrollar un sistema de gestión para la empresa Ebanistería Ray, permitiendo administrar clientes, trabajos, cotizaciones, inventario y finanzas mediante una aplicación desarrollada en Java y SQL Server.
+
+El sistema busca optimizar los procesos administrativos y mejorar el control de información dentro del negocio.
+
+
+## Objetivo General
+
+Desarrollar un sistema de gestión integral que permita administrar los procesos operativos y administrativos de la ebanistería.
+
+
+## Objetivos Específicos
+
+- Gestionar clientes.
+- Registrar trabajos realizados.
+- Generar cotizaciones.
+- Controlar inventario de materiales.
+- Registrar ingresos y egresos.
+- Generar historial de trabajos por cliente.
+
+
+
 # Requisitos Funcionales del Sistema
 
 ## 1. GESTIÓN DE CLIENTES
@@ -191,3 +216,41 @@
 ### Fase 3 (Bajo)
 6. Reportes avanzados
 7. Notificaciones por email/WhatsApp
+8. PDF
+
+
+# Tecnologías Utilizadas
+
+- Java
+- Swing
+- SQL Server
+- JDBC
+- Arquitectura MVC
+
+
+# Módulos del Sistema
+
+- Clientes
+- Trabajos
+- Cotizaciones
+- Inventario
+- Finanzas
+- Usuarios
+
+
+# Relaciones del Sistema
+
+- Un cliente puede tener múltiples trabajos.
+- Un trabajo pertenece a un cliente.
+- Una cotización puede convertirse en trabajo.
+- Un trabajo puede tener múltiples pagos.
+
+
+# Estados de Trabajo
+
+- Cotizado
+- Pendiente
+- En proceso
+- Terminado
+- Entregado
+- Cancelado
